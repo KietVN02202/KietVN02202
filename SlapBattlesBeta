@@ -18,7 +18,7 @@ function CreateSlapAura()
 
     local ScreenGui = Instance.new("ScreenGui")
     ScreenGui.Name = "SlapUi"
-    ScreenGui.ResetOnSpawn = false
+    ScreenGui.ResetOnSpawn = true
     ScreenGui.Parent = game.Players.LocalPlayer:FindFirstChild("PlayerGui")
 
     local SlapButton = Instance.new("ImageButton", ScreenGui)
