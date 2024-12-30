@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/Spy-default-script/refs/heads/main/UpgradeSpyDefault"))()
