@@ -9,5 +9,5 @@ game.StarterGui : SetCore ("SendNotification", {
 local mod = require(game.ReplicatedFirst.Dependencies.GloveMasteryClient)
 
 hookfunction(mod.IsMasteredVersionEnabled, function(self, g)
-    return g == "Killstreak" or g == "Glovel" or g == "spin" or old(self, g)
+    return g == "Killstreak" or g == "Glovel" or g == "spin" or g == "rob" or old(self, g)
 end)
