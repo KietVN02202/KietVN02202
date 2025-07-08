@@ -1,3 +1,11 @@
+game.StarterGui : SetCore ("SendNotification", { 
+         Title = "Make by KIET";
+         Text = "Have fun:]";
+         Icon = "";
+         Duration = "10";
+         Button1 = "Ok";
+})
+
 local rs=game.ReplicatedStorage._NETWORK
 g={"OVERKILL","CUSTOM","Spectator","Titan","Ultra Instinct","Acrobat"}
 for _,v in ipairs(workspace.Lobby:GetChildren())do
